@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Class1</StartupObject>
+    <StartupObject>ConsoleApp1.NestedLoop6</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BasicPro.cs" />
+    <Compile Include="IfElse.cs" />
+    <Compile Include="Homework.cs" />
+    <Compile Include="Loop.cs" />
+    <Compile Include="NestedLoopcs.cs" />
+    <Compile Include="OperatorDemo.cs" />
+    <Compile Include="PrefixPostfix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Switch.cs" />
+    <Compile Include="while.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
