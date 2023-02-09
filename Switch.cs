@@ -72,4 +72,8 @@ namespace ConsoleApp1
 
         }
     }
+    internal class Switch_Basic3
+    {
+
+    }
 }

@@ -68,6 +68,72 @@ namespace ConsoleApp1
     //***
     //****
     //*****
+    internal class NestedLoop21
+    {
+        static void Main(string[] args)
+        {
+            for (int row = 1; row <= 8; ++row)
+            {
+                for (int col = 1; col <= row; ++col)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+        }
+    }
+
+    internal class NestedLoop22
+    {
+        static void Main(string[] args)
+        {
+            int val = 5;
+            int i, j, k;
+            for (i = 1; i <= val; i++)
+            {
+                for (j = 1; j <= val - i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (k = 1; k <= i; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+            Console.ReadLine();
+        }
+    }
+
+    internal class NestedLoop23
+    {
+        static void Main(string[] args)
+        {
+            var num = 5;
+            for (var i = -num; i <= num; i++)
+            {
+                var k = i;
+                if (k < 0)
+                {
+                    k = k * -1;
+                }
+                for (var j = 0; j <= num; ++j)
+                {
+                    if (j < k)
+                    {
+                        Console.Write("  ");
+                    }
+                    else
+                    {
+                        Console.Write("* ");
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+    }
     internal class NestedLoop3
     {
         static void Main(string[] args)
